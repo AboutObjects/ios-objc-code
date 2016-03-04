@@ -1,6 +1,6 @@
-# Objective-C Programming Xcode Projects
+# iOS Development in Objective-C Xcode Projects
 
-Examples and lab exercises used in the *Objective-C Programming* course.
+Examples and lab exercises used in the *iOS Development in Objective-C* course.
 
 ---
 
