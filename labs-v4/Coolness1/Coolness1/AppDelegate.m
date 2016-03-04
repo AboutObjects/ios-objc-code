@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CLNCoolViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,8 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     CGRect screenRect = [UIScreen mainScreen].bounds;
     self.window = [[UIWindow alloc] initWithFrame:screenRect];
     self.window.backgroundColor = [UIColor lightGrayColor];
+    
+    self.window.rootViewController = [[CLNCoolViewController alloc] init];
     
     [self.window makeKeyAndVisible];
     
